@@ -1,0 +1,37 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}
+
+.header {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  &__navbar {
+    width: 100%;
+  }
+
+  &__brand {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    max-width: 100px;
+    margin: 10px;
+  }
+
+  &__nav-primary {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

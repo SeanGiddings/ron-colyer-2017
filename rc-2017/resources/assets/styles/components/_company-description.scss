@@ -1,0 +1,31 @@
+.company-description {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    color: #3b4866;
+    font-size: 10px;
+    margin: 0;
+  }
+
+  &__paragraphs {
+    margin-top: 20px;
+  }
+}
+
+h1 {
+  margin: 0;
+}
+
+hr {
+  width: 75%;
+  height: 3px;
+  background: #3b4866;
+  margin-top: 0;
+  margin-bottom: 0;
+}

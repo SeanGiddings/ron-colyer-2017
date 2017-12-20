@@ -1,0 +1,17 @@
+.contact-form {
+  &__container {
+    display: flex;
+    justify-content: center;
+    min-width: 320px;
+    background-image: url('https://i.ytimg.com/vi/1kKkRtVlwrM/maxresdefault.jpg');
+    background-size: cover;
+
+    .wpforms-container {
+      width: 320px;
+    }
+
+    &__title {
+      color: white;
+    }
+  }
+}
