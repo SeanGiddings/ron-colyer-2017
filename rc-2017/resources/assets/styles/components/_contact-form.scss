@@ -8,9 +8,16 @@
     background-size: cover;
 
     .wpforms-container {
-      width: 320px;
+      width: 380px;
       background-color: #ccdfff;
       border-radius: 25px;
+      margin: 50px 0;
+      padding: 12px;
+
+      input {
+        width: 100%;
+        max-width: 100% !important;
+      }
     }
 
     &__title {
