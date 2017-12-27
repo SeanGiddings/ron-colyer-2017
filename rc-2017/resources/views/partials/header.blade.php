@@ -1,6 +1,6 @@
 <header class="banner">
-  <div class="header__container container-fluid">
-    <nav class="header__navbar navbar navbar-expand-lg navbar-light bg-light">
+  <div class="header__container container-fluid fixed-top">
+    <nav class="header__navbar navbar navbar-expand-lg navbar-light">
       <a class="header__brand navbar-brand" href="{{ home_url('/') }}">
         <img class="header__logo d-inline-block align-top" src="https://seeklogo.com/images/D/dog-logo-0C1AEE70F1-seeklogo.com.png" alt="">
         {{ get_bloginfo('name', 'display') }}
