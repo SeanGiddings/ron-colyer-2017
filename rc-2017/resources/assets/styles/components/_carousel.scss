@@ -3,12 +3,16 @@
   z-index: 10;
   justify-content: center;
   text-align: center;
-  top: 40%;
-  left: 35%;
-  margin-top: 100px;
+  top: 25%;
+  left: 25%;
 }
 
 .carousel {
+  &__container {
+    max-height: 600px;
+    overflow: hidden;
+  }
+
   &__slogan {
     color: white;
     font-size: 30px;
