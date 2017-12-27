@@ -15,10 +15,16 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact-me">contact</a>
+            <a class="nav-link" href="/services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">building examples</a>
+            <a class="nav-link" href="/design-build">Design-Build</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about-us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact-me">Contact</a>
           </li>
         </ul>
       </div>

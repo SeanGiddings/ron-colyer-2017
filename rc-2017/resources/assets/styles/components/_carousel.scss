@@ -1,9 +1,11 @@
 .carousel__section {
   position: absolute;
   z-index: 10;
+  justify-content: center;
   text-align: center;
-  top: 43%;
-  left: 42%;
+  top: 40%;
+  left: 35%;
+  margin-top: 100px;
 }
 
 .carousel {
@@ -14,4 +16,34 @@
     text-shadow: 2px 2px 5px black;
     font-family: 'Libre Baskerville', serif;
   }
+
+  &__slogan-byline {
+    color: white;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  &__button {
+    //display: flex;
+    //align-items: center;
+    //justify-content: center;
+    margin-top: 10px;
+    width: 275px;
+    height: 60px;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 1px 1px 2px black;
+    background-color: #e5d4ae;
+    border-color: #6d592b;
+  }
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  color: #000;
+  background-color: #aa9463;
+  border-color: #6d592b;
 }

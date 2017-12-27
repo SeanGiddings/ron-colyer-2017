@@ -13,17 +13,17 @@
 </div>
 -->
 
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleSlidesOnly" class="carousel__container carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel__section">
       <div class="carousel__slogan">
-        This is the homepage of Ron Colyer's website.
+        Colyer Construction and Remodeling
       </div>
       <div class="carousel__slogan-byline">
-        The best site in the world.
+        A Louisville Standard since 1985
       </div>
       <div class="carousel__button btn btn-large btn-primary">
-        press me.
+        Schedule a Consult
       </div>
     </div>
     <div class="carousel-item active">
