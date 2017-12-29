@@ -1,11 +1,11 @@
 <div class="company-description__container company-description">
-<hr>
+<div class="company-description__top-line"><hr></div>
 
   <div class="company-description__header">
       <h1>Most Trusted Remodeling Company In Louisville, KY</h1>
   </div>
 
-<hr>
+<div class="company-description__bottom-line"><hr></div>
 
   <div class="company-description__paragraphs">Building, remodeling, and maintaining your home is an investment into your future. When searching for an excellent company that offers quality remodeling in Louisville, KY, Ben Tyler Building & Remodeling is the premier choice. Through our services, we'll ensure your home increases in value and quality for you and your family.</div>
    
