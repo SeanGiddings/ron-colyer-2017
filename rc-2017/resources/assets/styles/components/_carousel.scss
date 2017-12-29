@@ -1,10 +1,17 @@
+.carousel-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .carousel__section {
   position: absolute;
   z-index: 10;
   justify-content: center;
   text-align: center;
-  top: 25%;
-  left: 25%;
+  margin-top: -50px;
+  //top: 25%;
+  //left: 25%;
 }
 
 .carousel {
