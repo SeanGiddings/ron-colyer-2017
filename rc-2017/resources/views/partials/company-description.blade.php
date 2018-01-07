@@ -7,7 +7,7 @@
 
 <div class="company-description__bottom-line"><hr></div>
 
-  <div class="company-description__paragraphs">Building, remodeling, and maintaining your home is an investment into your future. When searching for an excellent company that offers quality remodeling in Louisville, KY, Ben Tyler Building & Remodeling is the premier choice. Through our services, we'll ensure your home increases in value and quality for you and your family.</div>
+  <div class="company-description__paragraphs">Building, remodeling, and maintaining your home is an investment into your future. When searching for an excellent company that offers quality remodeling in Louisville, KY, Ron Colyer Building & Remodeling is the premier choice. Through our services, we'll ensure your home increases in value and quality for you and your family.</div>
    
       <div>At our established company, we’re focused on responding to your needs and being readily available throughout any project. Additionally, we deliver premier results to clients that expect and demand excellence and we do everything we can to listen to your wants, needs, and concerns. Through our personal approach, we ensure that everything you want is delivered and that you’re always satisfied with what we’ve done.</div>
    
@@ -22,8 +22,8 @@
   <li>Door Repairs</li>
   <li>Hardware Installation</li>
   <li>And more!</li></div>
-  <div>Call us at (502) 583-7252 today to schedule a consultation.</div>
+  <div>Call us at (502) 123-4567 today to schedule a consultation.</div>
   <div>We opened our Remodeling Company in 1990.</div>
 
-  <div>We are located at 1115 Lexington Road, Louisville, KY.</div>
+  <div>We are located at 12345 XYZ Road, Louisville, KY.</div>
 </div>

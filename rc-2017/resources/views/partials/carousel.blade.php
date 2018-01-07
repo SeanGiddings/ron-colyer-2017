@@ -14,7 +14,7 @@
 -->
 
 <div id="carouselExampleSlidesOnly" class="carousel__container carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
+  <div class="carousel__inner">
     <div class="carousel__section">
       <div class="carousel__slogan">
         Colyer Construction and Remodeling
