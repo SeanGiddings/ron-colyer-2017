@@ -13,8 +13,9 @@
     display: flex;
     justify-content: center;
     color: #bf0001;
-    font-size: 10px;
+    //font-size: 10px;
     margin: 0;
+    font-family: 'Libre Baskerville', serif;
   }
 
   &__bottom-line {
@@ -23,6 +24,7 @@
 
   &__paragraphs {
     margin-top: 20px;
+    font-family: 'Libre Franklin', sans-serif;
   }
 }
 
