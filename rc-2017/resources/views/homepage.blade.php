@@ -11,6 +11,7 @@
     @include('partials.carousel')
     @include('partials.four-up-grid')
     @include('partials.company-description')
+    @include('partials.testimonials')
     @include('partials.content-page')
   @endwhile
 @endsection
