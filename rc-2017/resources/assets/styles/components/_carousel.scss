@@ -1,4 +1,4 @@
-.carousel-inner {
+.carousel__inner {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +9,7 @@
   z-index: 10;
   justify-content: center;
   text-align: center;
-  margin-top: -50px;
+  margin-top: -150px;
   //top: 25%;
   //left: 25%;
 }
@@ -22,7 +22,7 @@
 
   &__slogan {
     color: white;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 900;
     text-shadow: 2px 2px 5px black;
     font-family: 'Libre Baskerville', serif;
