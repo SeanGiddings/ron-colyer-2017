@@ -12,6 +12,7 @@
 // @import "~some-node-module";
 
 /** Import theme styles */
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 @import "common/global";
 @import "components/buttons";
@@ -22,6 +23,15 @@
 @import "components/carousel";
 @import "components/company-description";
 @import "components/contact-form";
+@import "components/about-us-title";
+@import "components/about-us-images";
+@import "components/about-us-description";
+@import "components/db-title";
+@import "components/db-description";
+@import "components/services-title";
+@import "components/services-construction";
+@import "components/services-remodeling";
+@import "components/testimonials";
 @import "layouts/core";
 @import "layouts/header";
 @import "layouts/sidebar";
@@ -32,3 +42,5 @@
 @import "pages/homepage";
 @import "pages/contact-me";
 @import "pages/services";
+@import "pages/design-build";
+@import "pages/about-us";
