@@ -9,7 +9,7 @@
 .header {
   &__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
     z-index: 11;
     box-shadow: 0 1px 5px #000;
@@ -24,7 +24,8 @@
   &__brand {
     display: flex;
     align-items: center;
-    color: white;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 1px 1px 2px white;
   }
 
   &__logo {
@@ -37,6 +38,10 @@
     display: flex;
     justify-content: flex-end;
   }
+}
+
+.nav-link {
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 /* navbar */
