@@ -1,11 +1,13 @@
-<div class="construction__container">
-  <div class="construction__image">
-    <img src="https://secureservercdn.net/4dc.b30.godaddywp.com/wp-content/uploads/2015/02/New-Home.jpg" alt="">
+<div class="remodeling__container">
+  <div class="remodeling__text">
+    <div class="remodeling__title">
+      Remodeling
+    </div>
+    <div class="remodeling__description">
+      Our commitment to service and communication continues by assigning a personal project manager to your project. The project manager is your principal contact during the actual construction stage. With over 20 years of experience, your project manager has completed national construction code courses and is well-versed with all technical aspects of building systems and codes. The project manager coordinates each aspect of your home-improvement project in a logical, scheduled and organized fashion, anticipating complications before they happen and taking the necessary steps to avoid delay and unforeseen costs. With your own dedicated project manager, your project runs in a way that minimizes stress and allows you to enjoy the remodeling process.
+    </div>
   </div>
-  <div class="construction__title">
-    Construction
-  </div>
-  <div class="construction__description">
-    Since 1981, Ron Colyer and his team of experts have designed, built and remodeled numerous award-winning homes in some of the most established neighborhoods in the Louisville Metro area. Ben Tyler Building and Remodeling consistently ranks in the top five firms in Business First's List of Full-Service Remodelers. Whether your project includes a new addition, a luxury kitchen, that dream bedroom, or a more spacious bathroom, you can rest assured that Ben Tyler will design and deliver a premium creative construction solution. The same holds true for our whole-house renovations and new home construction.
+  <div class="remodeling__image">
+    <img src="https://www.kiplinger.com/kipimages/pages/15171.jpg" alt="">
   </div>
 </div>
