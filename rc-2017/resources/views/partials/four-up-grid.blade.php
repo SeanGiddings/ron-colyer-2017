@@ -17,7 +17,7 @@
 <div class="four-up-grid__container">
     <div class="four-up-grid__service">
       <div class="four-up-grid__image">
-        <img src="http://via.placeholder.com/200x200">
+        <img src="https://i.imgur.com/uRxm5lB.png" width="200" height="200" alt="New Home Construction">
       </div>
       <div class="four-up-grid__header">
         New Home Construction
@@ -29,7 +29,7 @@
 
     <div class="four-up-grid__service">
       <div class="four-up-grid__image">
-        <img src="http://via.placeholder.com/200x200">
+        <img src="https://i.imgur.com/Te6GHp8.png" width="200" height="200" alt="Remodeling">
       </div>
       <div class="four-up-grid__header">
         Remodeling
@@ -41,7 +41,9 @@
 
     <div class="four-up-grid__service">
       <div class="four-up-grid__image">
-        <img src="http://via.placeholder.com/200x200">
+        <div class="four-up-grid__design-build-icon">
+          <img src="https://i.imgur.com/ynk2cNW.png" width="190" height="190" alt="Design Build Services">
+        </div>
       </div>
       <div class="four-up-grid__header">
         Design Build Services
@@ -53,7 +55,9 @@
 
     <div class="four-up-grid__service">
       <div class="four-up-grid__image">
-        <img src="http://via.placeholder.com/200x200">
+        <div class="four-up-grid__who-we-are-icon">
+          <img src="https://i.imgur.com/kKo8Hif.png" width="190" height="190" alt="Who We Are">
+        </div>
       </div>
       <div class="four-up-grid__header">
         Who We Are
