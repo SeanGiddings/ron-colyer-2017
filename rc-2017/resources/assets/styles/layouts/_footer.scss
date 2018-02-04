@@ -1,7 +1,61 @@
 .footer {
   &__container {
-    text-align: center;
     box-shadow: 0 -1px 5px #000;
     background-color: #d1d1cf;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__contact-container {
+    margin: 15px;
+    text-align: center;
+    margin-left: 100px;
+    width: 50%;
+  }
+
+  &__contact-title {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  &__contact {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+  }
+
+  &__icons-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__hba {
+    img {
+      max-height: 65px;
+    }
+  }
+
+  &__hbak {
+    img {
+      max-height: 65px;
+    }
+
+    padding: 10px;
+  }
+
+  &__bia {
+    img {
+      max-height: 65px;
+    }
+  }
+
+  &__sean-giddings {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+    color: grey;
+    display: flex;
+    align-items: center;
   }
 }
