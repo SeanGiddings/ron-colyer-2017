@@ -5,13 +5,15 @@
 }
 
 .carousel__section {
+  //display: flex;
+  //flex-direction: column;
   position: absolute;
   z-index: 10;
-  justify-content: center;
+  //justify-content: center;
   text-align: center;
-  margin-top: -150px;
-  //top: 25%;
-  //left: 25%;
+  //margin-top: -150px;
+  //top: 50%;
+  //left: 50%;
 }
 
 .carousel {
@@ -22,10 +24,14 @@
 
   &__slogan {
     color: white;
-    font-size: 45px;
+    font-size: 14px;
     font-weight: 900;
     text-shadow: 2px 2px 5px black;
     font-family: 'Libre Baskerville', serif;
+
+    @include media-breakpoint-up(md) {
+      font-size: 45px;
+    }
   }
 
   &__slogan-byline {
@@ -36,17 +42,22 @@
   }
 
   &__button {
-    //display: flex;
-    //align-items: center;
-    //justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 10px;
-    width: 275px;
+    width: 100px;
     height: 60px;
     font-size: 20px;
     color: #fff;
     text-shadow: 1px 1px 2px black;
     background-color: #bf0001;
     border-color: #6d592b;
+    font-family: 'Libre Franklin', sans-serif;
+
+    @include media-breakpoint-up(md) {
+      width: 275px;
+    }
   }
 }
 
