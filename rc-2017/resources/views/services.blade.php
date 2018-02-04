@@ -12,5 +12,6 @@
     @include('partials.services-construction')
     @include('partials.services-remodeling')
     @include('partials.content-page')
+    @include('partials.testimonials')
   @endwhile
 @endsection

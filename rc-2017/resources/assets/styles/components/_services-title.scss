@@ -1,32 +1,33 @@
 .services-header {
   &__container {
-    margin: 3%;
-    box-shadow: 0 1px 5px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    text-align: center;
+    //max-width: 50%
+    //margin-left: 10%;
+    //box-shadow: 0 1px 5px #000;
   }
 
-  &__image {
-    width: 100%;
-    //background-image: url("https://www.equipmentworld.com/wp-content/uploads/sites/2/2012/12/newhome.jpg");
-    background-image: url("https://images.sherwin-williams.com/content_images/sw-img-lroom-125-hdr.jpg");
-    //background-color: #bf0001;
-    background-size: cover;
-    height: 150px;
+  &__title-container {
+    width: 50%;
   }
 
   &__title {
     font-family: 'Libre Baskerville', serif;
     font-size: 50px;
-    max-width: 1000px;
-    margin-left: 50px;
-    color: white;
-    text-shadow: 3px 1px 2px black;
+    margin: 0;
+    color: #bf0001;
   }
 
   &__description {
     font-family: 'Libre Franklin', sans-serif;
-    max-width: 1000px;
-    margin-left: 25px;
-    color: white;
-    text-shadow: 1px 1px 2px black;
+    max-width: 60%;
+    margin-top: 20px;
+    //margin-left: 25px;
+    //color: white;
+    //text-shadow: 1px 1px 2px black;
   }
 }
