@@ -1,19 +1,31 @@
 <div class="about-us-description__container">
   <div class="about-us-description__text">
+    <hr>
     <div class="about-us-description__title">
-      Now you can walk through your finished project before it's ever built...
+      Ron Colyer Construction: A Louisville Standard
     </div>
+    <hr>
+
     <div class="about-us-description__description">
+      Ron Colyer has over 30 years experience in the construction industry and works directly with each client to ensure total and complete satisfaction throughout the building process.
+      <br><br>The moment you walk into a Colyer built custom home you feel the difference. The craftsmanship, evident throughout the home, sets it apart from other homes. Ron doesn’t just build homes, he builds relationships with his clients.
+      <br><br>He is personally committed to, and involved with, every aspect of your home. From lot selection through the end of the building process, you’ll know that Ron is not only working for you… he’s working with you.
 
-You have a project idea and want to know what the approximate cost will be and how it may look when completed. We offer Design/build services that are customized to meet your needs.
+      <div class="about-us-description__icons">
+        <div class="about-us-description__hba">
+          <img src="https://bialouisville.com/wp-content/themes/bialouisville/res/images/logo_bial.png" alt="">
+        </div>
+        <div class="about-us-description__hbak">
+          <img src="http://www.hbak.com/sites/all/themes/hbak/logo.png" alt="">
+        </div>
+        <div class="about-us-description__bia">
+          <img src="https://i.imgur.com/vq8EbFq.jpg" alt="">
+        </div>
+      </div>
 
-We set up a meeting with you and our Project Manager at the site to discuss your needs.
-After a walk through of the area, we will sit down with you and discuss the specifics of the project and get all the information we will need to begin the design process.
-After we have agreed to the scope of services we will work with our draftsman to create a custom set of drawings that you will review and adjust until the project design has been completed.
-Once a set of drawings have been produced and approved by you, we will create a set of specifications and take the project out to bid with our world class suppliers and tradesman.
-We will then produce a set of plans, list of specifications and a project estimate so that you know exactly what the project will cost and the time frame involved to complete the project.
-Finally if you decide to allow us to perform your work, we will credit the design portion of your agreement to the project.
-If for some reason you decide not to offer us the opportunity to serve as your builder or remodeling contractor, the plans, specification and Budget are yours to keep. fashion, anticipating complications before they happen and taking the necessary steps to avoid delay and unforeseen costs. With your own dedicated project manager, your project runs in a way that minimizes stress and allows you to enjoy the remodeling process.
+      As a registered builder of the Home Builders Association of Louisville, Ron is committed to adhering to the high standards the Association requires.
+      <br><br>As a Registered Builder, ron is required to have annual continuing education where he gains awareness of the latest construction methods and high-tech building methods. This also allows him to stay current with all building codes and regulations. He also keeps up with the design and decorating styles to offer his clients the latest trends in home building.
+
     </div>
   </div>
 </div>
