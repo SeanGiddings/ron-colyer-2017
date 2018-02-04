@@ -7,16 +7,16 @@
       <div class="carousel-item active">
         <div class="testimonials__quote-1">
           <blockquote cite="http://">
-            "Ron Colyer is the best construction company in the world. he built my house and then remodeled my house and it was awesome." <br>
-            <small>--Customer #1</small>
+            "We cant thank you enough for doing such a fantastic, outstanding and wonderful job from start to finish..."<br>
+            <small>--Mike and Christy Baker</small>
           </blockquote>
         </div>
       </div>
       <div class="carousel-item">
         <div class="testimonials__quote-2">
           <blockquote cite="http://">
-            "Ron Colyer is so great. he built my house and then remodeled my house and it was awesome." <br>
-            <small>--Customer #2</small>
+            "Our endless gratitude goes out... hard work and superious craftsmanship." <br>
+            <small>--Rich and Karen Leaton</small>
           </blockquote>
         </div>
       </div>
