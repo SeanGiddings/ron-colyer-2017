@@ -28,9 +28,21 @@
     text-shadow: 1px 1px 2px white;
   }
 
+  &__title {
+    display: none;
+
+    @include media-breakpoint-up(md) {
+      display: flex;
+    }
+  }
+
   &__logo {
-    max-width: 50px;
+    max-width: 200px;
     margin: 10px;
+
+    @include media-breakpoint-up(md) {
+      max-width: 200px;
+    }
   }
 
   &__nav-primary {
@@ -42,50 +54,4 @@
 
 .nav-link {
   font-family: 'Libre Franklin', sans-serif;
-}
-
-/* navbar */
-.navbar-default {
-  background-color: #524d4d;
-  border-color: #e7e7e7;
-}
-
-/* Title */
-.navbar-default .navbar-brand {
-  color: #fff;
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
-}
-
-/* Link */
-.navbar-default .navbar-nav > li > a {
-  color: #fff;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #333;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #555;
-  background-color: #e7e7e7;
-}
-
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #555;
-  background-color: #d5d5d5;
-}
-
-/* Caret */
-.navbar-default .navbar-nav > .dropdown > a .caret {
-  border-top-color: #777;
-  border-bottom-color: #777;
 }
