@@ -54,3 +54,13 @@
     font-family: 'Libre Franklin', sans-serif;
   }
 }
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
