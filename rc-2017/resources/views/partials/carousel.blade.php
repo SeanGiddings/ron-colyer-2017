@@ -20,20 +20,22 @@
         Colyer Construction and Remodeling
       </div>
       <div class="carousel__slogan-byline">
-        A Louisville Standard since 1985
+        A Louisville Standard since 1995
       </div>
-      <div class="carousel__button btn btn-large btn-primary">
-        Schedule a Consult
-      </div>
+      <a href="/contact-me">
+        <div class="carousel__button btn btn-large btn-primary">
+          Schedule a Consult
+        </div>
+      </a>
     </div>
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://i.imgur.com/pkXookE.jpg" alt="First slide">
+      <img class="d-block w-100" src="@asset('images/carousel/carousel1.jpg')" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://i.imgur.com/GjtKA1B.jpg" alt="Second slide">
+      <img class="d-block w-100" src="@asset('images/carousel/carousel2.jpg')" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://i.imgur.com/I3m9GF0.jpg" alt="Third slide">
+      <img class="d-block w-100" src="@asset('images/carousel/carousel3.jpg')" alt="Third slide">
     </div>
   </div>
 </div>
