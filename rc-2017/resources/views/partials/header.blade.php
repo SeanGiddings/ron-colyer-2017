@@ -2,7 +2,7 @@
   <div class="header__container container-fluid fixed-top">
     <nav class="header__navbar navbar navbar-expand-lg navbar-light">
       <a class="header__brand navbar-brand" href="{{ home_url('/') }}">
-        <img class="header__logo d-inline-block align-top" src="https://i.imgur.com/RgML1ax.jpg" alt="">
+        <img class="header__logo d-inline-block align-top" src="@asset('images/icons/colyer-logo.png')" alt="">
         <div class="header__title">
           {{ get_bloginfo('name', 'display') }}
         </div>
