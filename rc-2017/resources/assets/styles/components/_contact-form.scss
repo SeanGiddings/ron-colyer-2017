@@ -5,12 +5,12 @@
     align-items: center;
     min-width: 320px;
     //background-image: url('https://tjihome.com/wp-content/uploads/2016/08/luxury-living-room-Images-HD9K22.jpg');
-    background-image: url('https://i.imgur.com/2dBIwA9.jpg');
+    background-image: url('images/house-interiors/contact-background.jpg');
     background-size: cover;
 
     .wpforms-container {
       width: 380px;
-      background-color: #bf0001;
+      background-color: #635f5f;
       color: #fff;
       border-radius: 25px;
       margin: 50px 0;
@@ -32,6 +32,7 @@
 .wpforms-title {
   display: flex;
   justify-content: center;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .wpforms-field-container {
@@ -43,4 +44,9 @@
 .wpforms-submit-container {
   display: flex;
   justify-content: center;
+}
+
+.wpforms-submit {
+  color: #bf0001;
+  border-radius: 15px;
 }
