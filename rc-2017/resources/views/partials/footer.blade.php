@@ -5,22 +5,22 @@
     </div>
     <div class="footer__contact">
       Colyer Construction and Remodeling <br>
-      4103 Galway Cove <br>
-      Buckner, KY 40010 <br>
-      502-225-6430
+      6021 Cottage Lane <br>
+      Crestwood, KY 40014 <br>
+      (502) 419-6437
     </div>
   </div>
   <div class="footer__icons-container">
     <div class="footer__hba">
-      <img src="https://bialouisville.com/wp-content/themes/bialouisville/res/images/logo_bial.png" alt="">
+      <a href="https://bialouisville.com/" target="_blank"><img src="@asset('images/icons/hba-icon.png')" alt=""></a>
     </div>
     <div class="footer__hbak">
-      <img src="http://www.hbak.com/sites/all/themes/hbak/logo.png" alt="">
+      <a href="http://www.hbak.com/" target="_blank"><img src="@asset('images/icons/hbak-icon.png')" alt=""></a>
     </div>
     <div class="footer__bia">
-      <img src="https://bialouisville.com/wp-content/uploads/2013/11/BIAGLLogo_Remodeler.png" alt="">
+      <a href="https://bialouisville.com/" target="_blank"><img src="@asset('images/icons/bia-icon.png')" alt=""></a>
     </div>
   </div>
-  <div class="footer__sean-giddings">Web Design by Sean Giddings</div>
+  <div class="footer__sean-giddings"><a href="https://www.linkedin.com/in/sean-giddings-350a3213/" target="_blank">Web Design by Sean Giddings</a></div>
     @php(dynamic_sidebar('sidebar-footer'))
 </footer>
