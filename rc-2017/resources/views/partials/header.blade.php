@@ -1,3 +1,8 @@
+@php
+    // cache the page title
+    $pageTitle = get_the_title();
+@endphp
+
 <header class="banner">
   <div class="header__container container-fluid fixed-top">
     <nav class="header__navbar navbar navbar-expand-lg navbar-light">
@@ -13,19 +18,19 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="header__nav-primary navbar-nav mr-auto">
-          <li class="nav-item">
+          <li class="nav-item {{ ($pageTitle == 'Home') ? 'active' : '' }}">
             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item {{ ($pageTitle == 'Services') ? 'active' : '' }}">
             <a class="nav-link" href="/services">Services</a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item {{ ($pageTitle == 'Design Build') ? 'active' : '' }}">
             <a class="nav-link" href="/design-build">Design-Build</a>
           </li>
-          <li class="nav-item {{ (get_the_title() == 'About Us') ? 'active' : '' }}">
+          <li class="nav-item {{ ($pageTitle == 'About Us') ? 'active' : '' }}">
             <a class="nav-link" href="/about-us">About Us</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item {{ ($pageTitle == 'Contact me') ? 'active' : '' }}">
             <a class="nav-link" href="/contact-me">Contact</a>
           </li>
         </ul>
