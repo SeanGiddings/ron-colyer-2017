@@ -20,14 +20,6 @@
           </blockquote>
         </div>
       </div>
-      <div class="carousel-item">
-        <div class="testimonials__quote-3">
-          <blockquote cite="http://">
-            "i just wanted to say again--Ron Colyer is the best construction company in the world. he built my house and then remodeled my house and it was awesome." <br>
-            <small>--Customer #3</small>
-          </blockquote>
-        </div>
-      </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
