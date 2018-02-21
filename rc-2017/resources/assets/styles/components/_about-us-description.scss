@@ -29,6 +29,10 @@
   &__icons {
     display: flex;
     justify-content: center;
+
+    @include media-breakpoint-down (sm) {
+      display: none;
+    }
   }
 
   &__hba {

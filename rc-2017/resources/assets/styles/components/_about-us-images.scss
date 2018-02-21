@@ -24,17 +24,21 @@
     height: auto;
     overflow: hidden;
 
-    @include media-breakpoint-up(md) {
+    /* @media (min-width: 1090px) {
       display: block;
-    }
+    } */
   }
 
   &__item-center {
     width: 100%;
     //height: auto;
     //max-width: 350px;
-    max-height: 350px;
+    //max-height: 350px;
     overflow: hidden;
+
+    @include media-breakpoint-between(md, lg) {
+      max-width: 50%;
+    }
   }
 
   &__item-right {
@@ -45,8 +49,8 @@
     //max-height: 350px;
     overflow: hidden;
 
-    @media (min-width: 1090px) {
+    /* @media (min-width: 1090px) {
       display: block;
-    }
+    } */
   }
 }
