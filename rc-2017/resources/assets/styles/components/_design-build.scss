@@ -16,9 +16,13 @@
   }
 
   &__subtitle {
-    margin-top: 30px;
+    //margin-top: 30px;
     //font-size: 18px;
     font-family: 'Libre Franklin', sans-serif;
+    font-style: italic;
+    max-width: 700px;
+    margin: 2em auto;
+    font-size: 19px;
   }
 }
 
@@ -65,13 +69,19 @@
 
   &__image {
     img {
-      width: 500px;
-      height: 600px;
+      width: 100%;
+      height: auto;
+
+      @include media-breakpoint-up(md) {
+        width: 500px;
+        height: 600px;
+      }
     }
 
     margin: 50px 0;
     //overflow: hidden;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
   }
 }
