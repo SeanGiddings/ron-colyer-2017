@@ -8,6 +8,14 @@
     background-image: url('images/house-interiors/contact-background.jpg');
     background-size: cover;
 
+    @include media-breakpoint-up(lg) {
+      min-height: 1075px;
+    }
+
+    @media (max-width: 350px) {
+      margin-left: -15px;
+    }
+
     .wpforms-container {
       width: 380px;
       background-color: #635f5f;
