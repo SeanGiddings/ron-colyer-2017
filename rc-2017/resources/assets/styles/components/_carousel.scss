@@ -64,7 +64,7 @@
 
     &__images-container {
       @include media-breakpoint-down(md) {
-        background-image: url('images/carousel/carousel1.jpg');
+        background-image: url('/wp-content/themes/rc-2017/dist/images/carousel/carousel1.jpg');
         background-size: cover;
         background-position: center;
         //background-position-x: -500px;
