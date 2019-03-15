@@ -15,10 +15,10 @@
   &__contact-container {
     margin: 15px;
     text-align: center;
-    width: 50%;
+    width: 250px;
 
     @include media-breakpoint-up(lg) {
-      margin-left: 100px;
+      margin-left: 200px;
     }
   }
 
@@ -31,6 +31,11 @@
   &__contact {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 12px;
+  }
+
+  &__facebook {
+    display: flex;
+    justify-content: left;
   }
 
   &__icons-container {

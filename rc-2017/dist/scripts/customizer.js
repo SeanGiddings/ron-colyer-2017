@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d64f365fbbf91b52a23b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "13c2d8d10f2beaa30701"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -722,7 +722,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(32)(__webpack_require__.s = 32);
+/******/ 	return hotCreateRequire(33)(__webpack_require__.s = 33);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -2306,7 +2306,8 @@ module.exports = function(hash, moduleMap, options) {
 /* 29 */,
 /* 30 */,
 /* 31 */,
-/* 32 */
+/* 32 */,
+/* 33 */
 /*!***************************************************************************!*\
   !*** multi ./build/util/../helpers/hmr-client.js ./scripts/customizer.js ***!
   \***************************************************************************/
@@ -2315,11 +2316,11 @@ module.exports = function(hash, moduleMap, options) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /home/seangiddings/projects/ron-colyer-2017/rc-2017/resources/assets/build/util/../helpers/hmr-client.js */2);
-module.exports = __webpack_require__(/*! ./scripts/customizer.js */33);
+module.exports = __webpack_require__(/*! ./scripts/customizer.js */34);
 
 
 /***/ }),
-/* 33 */
+/* 34 */
 /*!*******************************!*\
   !*** ./scripts/customizer.js ***!
   \*******************************/

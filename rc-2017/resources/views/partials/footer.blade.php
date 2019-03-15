@@ -10,6 +10,10 @@
       (502) 419-6437
     </div>
   </div>
+  <div class="footer__facebook">
+    <a href="https://www.facebook.com/ColyerConstruction95">
+    <img src="@asset('images/icons/fb-logo.png')" alt="Facebook" width="35" height="35"></a>
+  </div>
   <div class="footer__icons-container">
     <div class="footer__hba">
       <a href="https://bialouisville.com/" target="_blank"><img src="@asset('images/icons/hba-icon.png')" alt=""></a>

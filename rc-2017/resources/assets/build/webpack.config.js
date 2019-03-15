@@ -39,12 +39,6 @@ let webpackConfig = {
     rules: [
       {
         enforce: 'pre',
-        test: /\.js$/,
-        include: config.paths.assets,
-        use: 'eslint',
-      },
-      {
-        enforce: 'pre',
         test: /\.(js|s?[ca]ss)$/,
         include: config.paths.assets,
         loader: 'import-glob',
@@ -164,12 +158,6 @@ let webpackConfig = {
       options: {
         output: { path: config.paths.dist },
         context: config.paths.assets,
-      },
-    }),
-    new webpack.LoaderOptionsPlugin({
-      test: /\.js$/,
-      options: {
-        eslint: { failOnWarning: false, failOnError: true },
       },
     }),
     new StyleLintPlugin({

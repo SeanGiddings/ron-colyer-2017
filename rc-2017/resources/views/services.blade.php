@@ -36,6 +36,7 @@
       ]
     ])
     @include('partials.content-page')
+    @include('partials.services-portfolio')
     @include('partials.testimonials')
   @endwhile
 @endsection
