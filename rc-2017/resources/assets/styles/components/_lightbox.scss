@@ -1,0 +1,23 @@
+.lightbox {
+  &__container {
+    //
+  }
+
+  &__thumbnail {
+    max-width: 300px;
+
+    &:hover {
+      box-shadow: 0 0 20px black;
+      transform: scale(1.05);
+      transition: all 0.15s ease-in-out;
+    }
+  }
+
+  &__slide:not(.lightbox__slide-0) {
+    display: none;
+  }
+}
+
+.lg-sub-html h4 {
+  font-size: 40px;
+}

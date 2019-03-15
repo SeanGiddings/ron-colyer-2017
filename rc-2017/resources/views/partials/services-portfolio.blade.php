@@ -4,16 +4,23 @@
   </div>
 </div>
 
-<div class="portfolio__lightbox"
-  <ul id="lightgallery">
-        <li data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
-        data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-          <a href="">
-            <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
-            <div class="demo-gallery-poster">
-              <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-            </div>
-          </a>
-        </li>
-      </ul>
-    </div>
+@include('partials.lightbox', [
+  'id' => '1',
+  'thumbnail' => '/wp-content/themes/rc-2017/dist/images/decks/SweasyDeck_after.jpg',
+  'images' => [
+    '/wp-content/themes/rc-2017/dist/images/decks/SweasyDeck_before.jpeg',
+    '/wp-content/themes/rc-2017/dist/images/decks/SweasyDeck_after2.jpg',
+    '/wp-content/themes/rc-2017/dist/images/decks/ShelbyDeck_before.jpg',
+    '/wp-content/themes/rc-2017/dist/images/decks/ShelbyDeck_after2.jpg',
+    '/wp-content/themes/rc-2017/dist/images/decks/SablanDeck_before.jpg',
+    '/wp-content/themes/rc-2017/dist/images/decks/SablanDeck_after.jpg'
+  ],
+  'image_descriptions' => [
+    "<h4>Before</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>",
+    '<h4>After</h4><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>',
+    "<h4>Before</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>",
+    '<h4>After</h4><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>',
+    "<h4>Before</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>",
+    '<h4>After</h4><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>',
+  ]
+])

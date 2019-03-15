@@ -1,13 +1,16 @@
 <div class="lightbox__container"
-  <ul id="lightgallery">
-    <li data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
-    data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-      <a href="">
-        <img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
-        <div class="demo-gallery-poster">
-          <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-        </div>
-      </a>
-    </li>
+  <ul id="lightgallery-{{$id}}">
+    @foreach ($images as $index => $image_url)
+      <li class="lightbox__slide lightbox__slide-{{$index}}" data-src="{{$image_url}}"
+      data-sub-html="{{$image_descriptions[$index]}}">
+        <a href="" class="lightbox__link">
+          <img class="lightbox__thumbnail img-responsive" src="{{$thumbnail}}">
+          {{--<div class="demo-gallery-poster">
+            <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
+          </div>--}}
+          {{--<h2 class="lightbox__category">Decks</h2>--}}
+        </a>
+      </li>
+    @endforeach
   </ul>
 </div>
