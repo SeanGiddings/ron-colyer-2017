@@ -29,8 +29,8 @@
 
 @include('partials.lightbox', [
   'id' => '2',
-  'thumbnail' => '/wp-content/themes/rc-2017/dist/images/decks/SweasyDeck_after.jpg',
-  'title' => 'houses',
+  'thumbnail' => '/wp-content/themes/rc-2017/dist/images/remodels/OwlCreek.jpg',
+  'title' => 'remodels',
   'images' => [
     '/wp-content/themes/rc-2017/dist/images/decks/SweasyDeck_before.jpeg',
     '/wp-content/themes/rc-2017/dist/images/decks/SweasyDeck_after2.jpg',
@@ -51,8 +51,30 @@
 
 @include('partials.lightbox', [
   'id' => '3',
-  'thumbnail' => '/wp-content/themes/rc-2017/dist/images/decks/SweasyDeck_after.jpg',
-  'title' => 'yards',
+  'thumbnail' => '/wp-content/themes/rc-2017/dist/images/custom-homes/TwelveOaks6.JPG',
+  'title' => 'custom homes',
+  'images' => [
+    '/wp-content/themes/rc-2017/dist/images/decks/SweasyDeck_before.jpeg',
+    '/wp-content/themes/rc-2017/dist/images/decks/SweasyDeck_after2.jpg',
+    '/wp-content/themes/rc-2017/dist/images/decks/ShelbyDeck_before.jpg',
+    '/wp-content/themes/rc-2017/dist/images/decks/ShelbyDeck_after2.jpg',
+    '/wp-content/themes/rc-2017/dist/images/decks/SablanDeck_before.jpg',
+    '/wp-content/themes/rc-2017/dist/images/decks/SablanDeck_after.jpg'
+  ],
+  'image_descriptions' => [
+    "<h4>Before</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>",
+    '<h4>After</h4><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>',
+    "<h4>Before</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>",
+    '<h4>After</h4><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>',
+    "<h4>Before</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>",
+    '<h4>After</h4><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>',
+  ]
+])
+
+@include('partials.lightbox', [
+  'id' => '4',
+  'thumbnail' => '/wp-content/themes/rc-2017/dist/images/before-after/SweasyVanity_after.jpg',
+  'title' => 'before/after',
   'images' => [
     '/wp-content/themes/rc-2017/dist/images/decks/SweasyDeck_before.jpeg',
     '/wp-content/themes/rc-2017/dist/images/decks/SweasyDeck_after2.jpg',

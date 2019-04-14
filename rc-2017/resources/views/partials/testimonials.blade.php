@@ -15,7 +15,7 @@
       <div class="carousel-item">
         <div class="testimonials__quote-2">
           <blockquote cite="http://">
-            "Our endless gratitude goes out... hard work and superiour craftsmanship." <br>
+            "Our endless gratitude goes out... hard work and superior craftsmanship." <br>
             <small>--Rich and Karen Leaton</small>
           </blockquote>
         </div>

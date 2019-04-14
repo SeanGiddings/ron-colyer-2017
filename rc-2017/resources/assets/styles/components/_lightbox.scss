@@ -6,6 +6,8 @@
   }
 
   &__container {
+    box-shadow: 0 1px 5px #000;
+
     &:hover {
       box-shadow: 0 0 20px black;
       transform: scale(1.05);
@@ -20,6 +22,7 @@
 
   &__thumbnail {
     max-width: 300px;
+    object-fit: cover;
   }
 
   &__slide:not(.lightbox__slide-0) {
@@ -31,6 +34,9 @@
   }
 
   &__title {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
     position: absolute;
     color: white;
     z-index: 100;
