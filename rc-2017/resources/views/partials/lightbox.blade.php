@@ -4,6 +4,7 @@
       <li class="lightbox__slide lightbox__slide-{{$index}}" data-src="{{$image_url}}"
       data-sub-html="{{$image_descriptions[$index]}}">
         <a href="" class="lightbox__link">
+          <div class="lightbox__title">{{$title}}</div>
           <img class="lightbox__thumbnail img-responsive" src="{{$thumbnail}}">
           {{--<div class="demo-gallery-poster">
             <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
