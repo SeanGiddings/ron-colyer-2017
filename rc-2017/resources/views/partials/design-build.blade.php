@@ -28,6 +28,6 @@
     </div>
   </div>
   <div class="design-build-description__image">
-    <img src="https://www.dbia.org/resource-center/PublishingImages/db_dbb_flowchart_large.jpg" alt="">
+    <img src= '/wp-content/themes/rc-2017/dist/images/design-build/design-build.jpg' alt="">
   </div>
 </div>

@@ -17,6 +17,6 @@ If for some reason you decide not to offer us the opportunity to serve as your b
     </div>
   </div>
   <div class="description__image">
-    <img src="https://img1.cgtrader.com/items/9102/2fb8b1bf75/large/3d-model-luxury-detailed-house-cutaway-3d-model-max.jpg" alt="">
+    <img src= '/wp-content/themes/rc-2017/dist/images/remodels/HancockBath.jpg' alt="">
   </div>
 </div>

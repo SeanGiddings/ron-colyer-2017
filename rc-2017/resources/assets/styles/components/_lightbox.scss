@@ -22,7 +22,7 @@
 
   &__thumbnail {
     max-width: 300px;
-    object-fit: cover;
+    max-height: 225px;
   }
 
   &__slide:not(.lightbox__slide-0) {
