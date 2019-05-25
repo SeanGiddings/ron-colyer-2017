@@ -29,11 +29,11 @@
     } */
   }
 
-  &__item-center {
+  &__ron {
     width: 100%;
     //height: auto;
-    //max-width: 350px;
-    //max-height: 350px;
+    max-width: 500px;
+    max-height: 350px;
     overflow: hidden;
 
     @include media-breakpoint-between(md, lg) {
@@ -52,5 +52,9 @@
     /* @media (min-width: 1090px) {
       display: block;
     } */
+  }
+
+  &__hansen {
+    max-width: 250px;
   }
 }
