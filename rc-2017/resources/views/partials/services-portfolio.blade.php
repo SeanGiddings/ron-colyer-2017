@@ -10,6 +10,8 @@
   'thumbnail' => '/wp-content/themes/rc-2017/dist/images/decks/SweasyDeck_after.jpg',
   'title' => 'decks',
   'images' => [
+    '/wp-content/themes/rc-2017/dist/images/decks/NewDeck_before.jpg',
+    '/wp-content/themes/rc-2017/dist/images/decks/NewDeck_after.jpg',
     '/wp-content/themes/rc-2017/dist/images/decks/SweasyDeck_before.jpeg',
     '/wp-content/themes/rc-2017/dist/images/decks/SweasyDeck_after2.jpg',
     '/wp-content/themes/rc-2017/dist/images/decks/ShelbyDeck_before.jpg',
@@ -18,6 +20,8 @@
     '/wp-content/themes/rc-2017/dist/images/decks/SablanDeck_after.jpg'
   ],
   'image_descriptions' => [
+    "<h4>Before</h4>",
+    '<h4>After</h4>',
     "<h4>Before</h4>",
     '<h4>After</h4>',
     "<h4>Before</h4>",
