@@ -37,6 +37,8 @@
   'title' => 'remodels',
   'images' => [
     '/wp-content/themes/rc-2017/dist/images/remodels/kitchen.jpg',
+    '/wp-content/themes/rc-2017/dist/images/remodels/NewBath.jpeg',
+    '/wp-content/themes/rc-2017/dist/images/remodels/NewBath2.jpg',
     '/wp-content/themes/rc-2017/dist/images/remodels/HancockBath.jpg',
     '/wp-content/themes/rc-2017/dist/images/remodels/HancockBathtub.jpg',
     '/wp-content/themes/rc-2017/dist/images/remodels/MaloneBath.jpg',
@@ -82,6 +84,10 @@
   'thumbnail' => '/wp-content/themes/rc-2017/dist/images/before-after/SweasyThumb.jpg',
   'title' => 'before/after',
   'images' => [
+    '/wp-content/themes/rc-2017/dist/images/before-after/NewBath_before.jpg',
+    '/wp-content/themes/rc-2017/dist/images/before-after/NewBath_after.jpeg',
+    '/wp-content/themes/rc-2017/dist/images/before-after/NewBath2_before.jpg',
+    '/wp-content/themes/rc-2017/dist/images/before-after/NewBath2_after.JPG',
     '/wp-content/themes/rc-2017/dist/images/before-after/SweasyVanity_before.jpg',
     '/wp-content/themes/rc-2017/dist/images/before-after/SweasyVanity_after.jpg',
     '/wp-content/themes/rc-2017/dist/images/before-after/xyz_before.jpg',
@@ -94,6 +100,10 @@
     '/wp-content/themes/rc-2017/dist/images/before-after/TacketKitchen_after.jpg'
   ],
   'image_descriptions' => [
+    "<h4>Before</h4>",
+    '<h4>After</h4>',
+    "<h4>Before</h4>",
+    '<h4>After</h4>',
     "<h4>Before</h4>",
     '<h4>After</h4>',
     "<h4>Before</h4>",
