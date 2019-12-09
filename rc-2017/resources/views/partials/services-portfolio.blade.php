@@ -36,6 +36,7 @@
   'thumbnail' => '/wp-content/themes/rc-2017/dist/images/remodels/OwlCreek.jpg',
   'title' => 'remodels',
   'images' => [
+    '/wp-content/themes/rc-2017/dist/images/remodels/kitchen.jpg',
     '/wp-content/themes/rc-2017/dist/images/remodels/HancockBath.jpg',
     '/wp-content/themes/rc-2017/dist/images/remodels/HancockBathtub.jpg',
     '/wp-content/themes/rc-2017/dist/images/remodels/MaloneBath.jpg',
