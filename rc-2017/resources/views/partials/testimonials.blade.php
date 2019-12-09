@@ -20,6 +20,14 @@
           </blockquote>
         </div>
       </div>
+      <div class="carousel-item">
+        <div class="testimonials__quote-3">
+          <blockquote cite="http://">
+            "TEST!." <br>
+            <small>--Rich and Karen Leaton</small>
+          </blockquote>
+        </div>
+      </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
