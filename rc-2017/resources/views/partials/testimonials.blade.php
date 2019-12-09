@@ -7,23 +7,39 @@
       <div class="carousel-item active">
         <div class="testimonials__quote-1">
           <blockquote cite="http://">
-            "We can't thank you enough for doing such a fantastic, outstanding and wonderful job from start to finish..."<br>
-            <small>--Mike and Christy Baker</small>
+            "The Colyer Construction Company tore off and replaced the original deck, that was badly in need of repair, at my home.The work was done professionally and in a very timely manner with very competent and skilled workmen. I would definitely work with this group on another project."<br>
+            <small>--Deborah Wheat</small>
           </blockquote>
         </div>
       </div>
       <div class="carousel-item">
         <div class="testimonials__quote-2">
           <blockquote cite="http://">
-            "Our endless gratitude goes out... hard work and superior craftsmanship." <br>
-            <small>--Rich and Karen Leaton</small>
+            "Ron Colyer and his team did a great job! They were very professional and performed their services in a timely manner. They were also very punctual and polite. Lastly, their communication throughout the entire project was excellent!" <br>
+            <small>--Kevin and Amy Porter </small>
           </blockquote>
         </div>
       </div>
       <div class="carousel-item">
         <div class="testimonials__quote-3">
           <blockquote cite="http://">
-            "TEST!." <br>
+            "We appreciated your experience in home construction; the friendliness of your work crews; and the care to keep the work area clean. Thank you."<br>
+            <small>--Cheryl and Don Lamar</small>
+          </blockquote>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="testimonials__quote-3">
+          <blockquote cite="http://">
+          "We can't thank you enough for doing such a fantastic, outstanding and wonderful job from start to finish..." <br>
+            <small>--Mike and Christy Baker</small>
+          </blockquote>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="testimonials__quote-3">
+          <blockquote cite="http://">
+          "Our endless gratitude goes out... hard work and superior craftsmanship." <br>
             <small>--Rich and Karen Leaton</small>
           </blockquote>
         </div>
